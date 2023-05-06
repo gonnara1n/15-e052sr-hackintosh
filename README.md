@@ -1,17 +1,19 @@
 # 15-e052sr-hackintosh
-Hackintosh for HP Pavilion 15-e052sr
+OpenCore Hackintosh for HP Pavilion 15-e052sr \
+Just weite EFI folder on your EFI partition \
+Tested on macOS 10.13 High Sierra
 
-# Hardware
-CPU : i3 3110M
-RAM : 8GB
-GRAPHICS : Intel HD Graphics 4000 (work in macOS) and AMD Radeon HD 8600M (disabled in macOS)
+## Hardware
+CPU : i3 3110M \
+RAM : 8GB \
+GRAPHICS : Intel HD Graphics 4000 (work in macOS) and AMD Radeon HD 8600M (disabled in macOS) 
 
-# BIOS Settings
+## BIOS Settings
 + System Configurstion -> Virtualization Technology -> Disabled
 + System Configurstion -> Legacy Support -> Enabled
 + System Configurstion -> Secure Boot -> Disabled
 
-# Working (tested on High Sierra)
+## Working (tested on High Sierra)
 + iGPU with disabled dGPU
 + Brightness control
 + Sleep Mode
@@ -21,7 +23,7 @@ GRAPHICS : Intel HD Graphics 4000 (work in macOS) and AMD Radeon HD 8600M (disab
 + External Display
 + Battery Managment
 
-# Not Working 
+## Not Working 
 + Wi-Fi Card (I use usb stick Wi-Fi adapter)
 + Ethernet
 + dGPU
