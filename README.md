@@ -1,6 +1,6 @@
 # 15-e052sr-hackintosh
 OpenCore Hackintosh for HP Pavilion 15-e052sr \
-Just weite EFI folder on your EFI partition \
+Just write EFI folder on your EFI partition \
 Tested on macOS 10.13 High Sierra
 
 ## Hardware
